@@ -59,7 +59,7 @@ alphaTS
    11. hlcBounceNumeric6d: 过去6日反弹强度的走势(numeric)
 
    12. hlcBounceSigned6d: 过去6日反弹强度的走势(signed)
-       ![HLCBOUNCE](imgs/hlcbounce.PNG)
+       ![HLCBOUNCE](imgs/hlcbounce.png)
 
        ​
 
