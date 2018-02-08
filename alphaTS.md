@@ -37,7 +37,7 @@ alphaTS
       DBX_t=\frac{close_t-open_t}{(high_t-low_t)+0.001}
       $$
 
-   6. revOpenVol10d: 过去10日的开盘价与成交量背离指标。出自Alpha101的alpha6
+   6. revOpenVol10d: 过去10日的开盘价与成交量背离指标
       $$
       Corr_t=-1*correlation(open,volume,10)
       $$
@@ -60,6 +60,23 @@ alphaTS
 
    12. hlcBounceSigned6d: 过去6日反弹强度的走势(signed)
        ![HLCBOUNCE](imgs/hlcbounce.png)
+
+   13. mrChannel_2_8_v20: 均值回归通道
+
+   14. v2Mom10d: 动量
+
+   15. v1Amount: 当日资金量
+      $$
+      Amount_t=\frac{(close+high+low)}{3}*volume
+      $$
+
+   16. dbxflip5d: 过去5日单边性翻转
+       ![HLCBOUNCE](imgs/dbxflip.png)
+
+   17. avglines24: 多均线
+      $$
+      Avg=\frac{sma(close,3)+sma(close,6)+sma(close,12)+sma(close,24)}{4*close}
+      $$
 
        ​
 
