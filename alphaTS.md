@@ -65,18 +65,41 @@ alphaTS
 
    14. v2Mom10d: 动量
 
-   15. v1Amount: 当日资金量
+   15. v3Mom10d: 动量
+
+   16. cumUpChg10d: 过去10日累积上攻趋势量
+
+   17. v1Amount: 当日资金量
       $$
       Amount_t=\frac{(close+high+low)}{3}*volume
       $$
 
-   16. dbxflip5d: 过去5日单边性翻转
+   18. dbxflip5d: 过去5日单边性翻转
        ![HLCBOUNCE](imgs/dbxflip.png)
 
-   17. avglines24: 多均线
+   19. avglines24: 多均线系统
       $$
       Avg=\frac{sma(close,3)+sma(close,6)+sma(close,12)+sma(close,24)}{4*close}
       $$
+
+   20. v1CapFlow10d: 过去10日资金流情况
+
+   21. goldCrossArb: 自定义走势金叉
+
+   22. goldCrossST: 短期走势金叉
+
+   23. goldCrossMT: 中期走势金叉
+
+   24. goldCrossLT: 长期走势金叉
+
+   25. v1AvgPrice: 均价
+      $$
+      Avg=\frac{high+low+close}{3}
+      $$
+
+   26. volStd5d: 过去5日成交量标准差
+
+   27. trStd5d: 过去5日换手率标准差
 
        ​
 
