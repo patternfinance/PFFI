@@ -61,7 +61,7 @@ alphaTS
    12. hlcBounceSigned6d: 过去6日反弹强度的走势(signed)
        ![HLCBOUNCE](imgs/hlcbounce.png)
 
-   13. mrChannel_2_8_v20: 均值回归通道
+   13. v1MRChannel_2_8_v20: 均值回归通道
 
    14. v2Mom10d: 动量
 
@@ -101,7 +101,20 @@ alphaTS
 
    27. trStd5d: 过去5日换手率标准差
 
-       ​
+   28. revNewHigh_20_2: 新高反转
+
+   29. mxr_100_3_5: 回调或抄底买入
+
+   30. v2MRChannel_20_10_1: 均值回归通道
+
+   31. osline_0_0_5: 超卖反弹
+
+   32. revVolPrice: 量价背离
+      $$
+      sign(delta(volume, 1)) * (-1 * delta(close, 1))
+      $$
+
+       
 
 2. 使用daily cross-sectional数据计算的alphas
 
